@@ -1,0 +1,11 @@
+{
+  "name": "my-nodered-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node-red --port $PORT --userDir ./data"
+  },
+  "dependencies": {
+    "node-red": "^3.0.0",
+    "@flowfuse/node-red-dashboard": "^1.0.0"
+  }
+}
